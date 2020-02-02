@@ -11,9 +11,32 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 5px;
+	box-sizing: border-box;
 }
 
 body.dark-mode {
 	background: #000000;
 	color: white;
+}
+
+#foto-vini {
+	height: 200px;
+	width: 200px;
+	transition: all 0.2s;
+}
+
+#foto-vini:hover {
+	/* height: 205px; */
+	/* width: 205px; */
+	transform: scale(1.05);
+}
+
+.flexc {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+	text-align: center;
 }
