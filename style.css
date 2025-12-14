@@ -214,3 +214,15 @@ body {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
+.tech-badges {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-badges img {
+  height: 28px;
+}
