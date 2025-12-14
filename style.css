@@ -159,3 +159,58 @@ body {
   font-size: 0.95rem;
   color: var(--text);
 }
+
+/* TIMELINE */
+.timeline {
+  position: relative;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--primary);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  background: var(--primary);
+  border-radius: 50%;
+}
+
+.timeline-content {
+  background: var(--card);
+  padding: 18px 20px;
+  border-radius: 12px;
+}
+
+.timeline-year {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.timeline-content h3 {
+  margin: 8px 0;
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
+.timeline-content p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
